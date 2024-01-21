@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div data-aos="fade-bottom" className="bg-blue-600 h-auto lg:h-[50vh] text-white">
 
-    <div className=' lg:gap-10 gap:4  py-8 rounded-sm  dm-display text-white theme grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 px-4 lg:px-[33px] mx-auto w-full'>
+    <div className=' lg:gap-10 md:gap-10 gap:4  py-8 rounded-sm  dm-display text-white theme grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 px-4 lg:px-[33px] mx-auto w-full'>
         <div>
             <h1 className='lg:text-5xl md:text-3xl text-4xl font-bold'>Rent Mobil</h1>
             <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos quisquam rerum, tempore ratione accusantium! Rerum culpa corrupti alias ipsum accusamus totam.</p>
