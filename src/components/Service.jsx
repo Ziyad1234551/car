@@ -5,7 +5,7 @@ export const Service = () => {
   return (
     <div data-aos="fade-left" className='lg:max-w-[1428px] md:w-full w-full lg:items-center px-2 w-full lg:flex-row md:flex-row flex-col  flex justify-around gap-10  my-[100px]'>
          <div>
-            <img className='md:w-[300px] overflow-hidden w-[100px] lg:w-full md:object-cover' src="car2.png" alt="" />
+            <img className='md:w-[300px] overflow-hidden w-[300px] lg:w-full md:object-cover' src="car2.png" alt="" />
 
         </div>
         <div className='-start  my-0 lg:my-[40px]'>
