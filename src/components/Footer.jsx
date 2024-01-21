@@ -7,7 +7,7 @@ export const Footer = () => {
 
     <div className=' lg:gap-10 gap:4  py-8 rounded-sm  dm-display text-white theme grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 px-4 lg:px-[33px] mx-auto w-full'>
         <div>
-            <h1 className='lg:text-5xl md:text-3xl text-4xl font-bold'>RentMobil</h1>
+            <h1 className='lg:text-5xl md:text-3xl text-4xl font-bold'>Rent Mobil</h1>
             <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quos quisquam rerum, tempore ratione accusantium! Rerum culpa corrupti alias ipsum accusamus totam.</p>
             <div>
                 <h3 className='lg:text-2xl text-2xl md:text-xl'>Follow Us</h3>
