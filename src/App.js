@@ -3,7 +3,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './App.css';
 import { Banner } from './components/Banner';
-import { Best } from './components/Best';
 import { Book } from './components/Book';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -25,7 +24,6 @@ function App() {
     <Hero/>
     <Book/>
     <Service/>
-    <Best/>
     <Banner/>
     <Top/>
     <Footer/>

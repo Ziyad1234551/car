@@ -24,7 +24,7 @@ export const Best = () => {
         }
     ]
   return (
-    <div data-aos="fade-right" className='my-[100px] w-full lg:max-w-[1428px] mx-auto'>
+    <div data-aos="fade-right" className='my-[100px]  w-full lg:max-w-[1428px] mx-auto'>
         <h1 className="lg:text-6xl md:text-5xl text-3xl my-4 text-blue-600 text-center dm-display font-bold">Best Product</h1>
         <p className="text-center my-4">Lorem ipsum dolor sit amet consectetur em!</p>
         <div className="flex lg:grid-cols-4 md:grid md:grid-cols-2  px-10 flex-col justify-center items-center gap-4">
