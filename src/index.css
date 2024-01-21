@@ -29,3 +29,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (max-width:678px) {
+  *{
+    max-width: 678px;
+    overflow: hidden;
+  }
+  
+}
