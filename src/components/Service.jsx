@@ -9,7 +9,7 @@ export const Service = () => {
 
         </div>
         <div className='-start  my-0 lg:my-[40px]'>
-            <h1 className="dm-display  md:text-5xl lg:text-[60px] text-blue-500 font-bold ">Our Services</h1>
+            <h1 className="dm-display  md:text-5xl text-2xl lg:text-[60px] text-blue-500 font-bold ">Our Services</h1>
             <div className="flex gap-4 my-8 items-center ">
                 <div className='w-[50px] h-[50px] flex justify-center items-center bg-green-300 text-white rounded-full'>
                 <GrSecure className='text-2xl font-bold'/>
