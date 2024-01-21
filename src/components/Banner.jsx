@@ -10,7 +10,7 @@ export const Banner = () => {
 
         <div className="flex lg:flex-row md:flex-row flex-col justify-center items-center gap-2 lg:my-10 md:my-6 my-2">
         <input type="text" className='lg:w-[500px] md:w-[400px] w-full text-black h-[50px] rounded-lg outline-none border border-black px-4'  placeholder='Enter Your Email'/>
-        <button className='bg-yellow-400 py-3 w-full rounded-lg px-4 text-xl  roboto'>Subscribe</button>
+        <button className='bg-yellow-400 py-3 lg:w-[140px] w-full rounded-lg px-4 text-xl  roboto'>Subscribe</button>
         </div>
     </div>
   )
