@@ -12,10 +12,9 @@ import { Top } from './components/Top';
 function App() {
   useEffect(() => {
     AOS.init({
-      delay:500,
-      offset:100,
+      delay:2000,
       easing:"ease-in-out",
-      duration:1000,
+      duration:4000,
     });
   }, [])
   return (
