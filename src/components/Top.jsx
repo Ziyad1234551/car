@@ -54,7 +54,7 @@ export const Top = () => {
                     <div className='lg:w-full w-full h-[350px] rounded-md border border-black px-4 py-4'>
                         <h1 className='dm-display text-center text-4xl text-gray-800 font-bold'>{car.name}</h1>
                         <img src={car.img} alt="" className='w-[160px] my-10 mx-auto transition-all hover:translate-x-6 cursor-pointer h-[80px] object-cover' />
-                        <p className='text-2xl font-bold roboto'>Price : $.{car.price}</p>
+                        <p className='text-2xl font-bold roboto'>Price : ${car.price}</p>
                         <button className='bg-blue-500 my-5 transition-all hover:shadow-lg cursor-pointer mx-auto w-full py-4 rounded-lg text-white'>Book Now</button>
                         
                     </div>

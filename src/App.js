@@ -10,13 +10,13 @@ import Navbar from './components/Navbar';
 import { Service } from './components/Service';
 import { Top } from './components/Top';
 function App() {
-  useEffect(() => {
+  useEffect(()=>{
     AOS.init({
-      delay:2000,
+      delay:400,
+      duration:1200,
       easing:"ease-in-out",
-      duration:4000,
     });
-  }, [])
+  })
   return (
    <div>
     <Navbar/>
