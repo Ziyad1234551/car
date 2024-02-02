@@ -3,7 +3,7 @@ import { FaDelicious, FaDribbble } from 'react-icons/fa6';
 import { GrSecure } from "react-icons/gr";
 export const Service = () => {
   return (
-    <div data-aos="fade-left" name="service" className='lg:max-w-[1428px] md:w-full w-[300px] lg:items-center px-2  lg:flex-row md:flex-row flex-col  flex justify-around gap-10  my-[100px]'>
+    <div data-aos="fade-top" name="service" className='lg:max-w-[1428px] md:w-full w-[300px] lg:items-center px-2  lg:flex-row md:flex-row flex-col  flex justify-around gap-10  my-[100px]'>
          <div>
             <img className='md:w-[300px] overflow-hidden w-[300px] lg:w-full md:object-cover' src="car2.png" alt="" />
 
