@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaCar } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom';
-
+import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
     const [nav,setNav] = useState(false)
   return (
@@ -27,10 +27,10 @@ const Navbar = () => {
           
 
            <div className='roboto text-2xl w-[0px] overflow-hidden z-20 transition-all py-4 px-0  absolute left-0 h-[100vh] flex bg-blue-500 flex-col gap-6 font-bold  top-0'>
-               <NavLink to="/">Home</NavLink>
-               <NavLink to="/service">Service</NavLink>
-               <NavLink to="/blog">Blog</NavLink>
-               <NavLink to="/contact-us">Contact Us</NavLink>
+               <NavLink className="cursor-pointer" to="/">Home</NavLink>
+               <ScrollLink className="cursor-pointer"  to="About">About</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="service">Services</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="car">Ca</ScrollLink>
    
                
            </div>
@@ -38,9 +38,9 @@ const Navbar = () => {
 
         <div className='roboto text-2xl transition-all overflow-hidden w-[200px] z-20  py-4 px-9  absolute left-0 h-[100vh] flex bg-blue-500 flex-col gap-6 font-bold  top-0'>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/service">Service</NavLink>
-            <NavLink to="/blog">Blog</NavLink>
-            <NavLink to="/contact-us">Contact Us</NavLink>
+            <ScrollLink className="cursor-pointer"  to="About">About</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="service">Services</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="car">Ca</ScrollLink>
 
             
         </div>
