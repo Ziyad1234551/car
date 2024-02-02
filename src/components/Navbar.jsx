@@ -14,9 +14,9 @@ const Navbar = () => {
         </div>
         <div className='lg:flex md:flex hidden gap-4 text-xl font-semibold roboto'>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/service">Service</NavLink>
-            <NavLink to="/blog">Blog</NavLink>
-            <NavLink to="/contact-us">Contact Us</NavLink>
+            <ScrollLink className="cursor-pointer" smooth={true}  to="about">About</ScrollLink>
+               <ScrollLink className="cursor-pointer"  smooth={true}   to="service">Services</ScrollLink>
+               <ScrollLink className="cursor-pointer"   smooth={true}  to="car">Car</ScrollLink>
 
             
         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
                <NavLink className="cursor-pointer" to="/">Home</NavLink>
                <ScrollLink className="cursor-pointer"  to="About">About</ScrollLink>
                <ScrollLink className="cursor-pointer"  to="service">Services</ScrollLink>
-               <ScrollLink className="cursor-pointer"  to="car">Ca</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="car">Car</ScrollLink>
    
                
            </div>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <NavLink to="/">Home</NavLink>
             <ScrollLink className="cursor-pointer"  to="About">About</ScrollLink>
                <ScrollLink className="cursor-pointer"  to="service">Services</ScrollLink>
-               <ScrollLink className="cursor-pointer"  to="car">Ca</ScrollLink>
+               <ScrollLink className="cursor-pointer"  to="car">Car</ScrollLink>
 
             
         </div>
